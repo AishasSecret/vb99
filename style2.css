@@ -1,0 +1,31 @@
+.links > li > a:link {
+    color: darkcyan;
+}
+
+.links > li > a:visited {
+    color:seagreen;
+}
+
+.links > li > a:active {
+    color:slategrey;
+}
+
+h1 {
+    color:darkslategray
+}
+
+h3:hover {
+    color: sandybrown;
+}
+
+h3 > p:hover {
+    color: palevioletred;
+}
+
+h3 > span:hover {
+    color: rosybrown;
+}
+
+body {
+    background-color: mintcream;
+}

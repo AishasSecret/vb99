@@ -1,0 +1,62 @@
+.after {
+    color:green;
+}
+
+.after > li {
+    list-style: none;
+}
+
+.after > li::after {
+    content: "  @  ";;
+}
+
+.after > li::before {
+    content: "  *  ";;
+}
+
+
+.links > li > a:link {
+    color: dimgrey;
+}
+
+.links > li > a:visited {
+    color: lightsteelblue;
+}
+
+.links > li > a:active {
+    color: peachpuff;
+}
+
+h1:hover {
+    color: thistle;
+}
+
+h2:hover {
+    font-size: 30px;
+    color:gainsboro
+}
+
+span:empty {
+    background-color: mediumslateblue;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+/*.child > li:first-child { 
+    color: cadetblue;
+    font-size: 20px;
+}
+
+.child > li:last-child {
+    color: lightpink;
+    font-size: 14px;
+ } */
+
+ .child > li:nth-child(even) {
+     color: moccasin;
+ }
+
+ .child > li:nth-child(odd) {
+    color:sandybrown;
+}
