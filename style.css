@@ -13,7 +13,7 @@
 
 .profile {
     width: 500px;
-    height: 1000px;
+    height: 1050px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -23,13 +23,21 @@
     width: 450px;
     height: 500px;
     border: 4px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.in {
+    width: 60%;
 }
 
 .friends {
     width: 450px;
-    height: 400px;
+    height: 445px;
     border: 4px solid purple;
     margin: 20px;
+    justify-content: space-around;
 }
 
 .info {
@@ -86,4 +94,57 @@ td {
     display: flex;
     align-items:center;
     justify-content:space-around;
+}
+
+.my {
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.one {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.two {
+    width: 250px;
+    height: 250px;
+}
+
+.four {
+    width: 250px;
+    height: 250px;
+}
+
+.five {
+    width: 250px;
+    height: 250px;
+}
+
+.six {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.tre {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.sev {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.ei {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
 }
