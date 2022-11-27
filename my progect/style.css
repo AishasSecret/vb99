@@ -8,14 +8,54 @@
     height: 80px;
     display: flex;
     justify-content: center;
+
 }
 
-.popular {
-    height: 100px;
+.empty {
+    background-color: white;
+    height: 70px;
+}
+
+.history {
+    height: 800px;
 }
 
 .footer {
-    height: 80px;
+    height: 200px;
     background-color: darkseagreen;
 }
 
+.name {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color:darkseagreen;
+}
+
+.carousel-inner > .carousel-item > img {
+    height: 850px;
+}
+
+@font-face {
+	font-family: 'SFNS-Display-Thin';
+	src: url('../fonts/sfns_display_thin.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sfns_display_thin.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sfns_display_thin.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sfns_display_thin.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sfns_display_thin.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sfns_display_thin.svg#sfns_display_thin') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+* {
+    font-family: 'SFNS-Display-Thin';
+}
+
+.p {
+    display: flex;
+    justify-content: center;
+}
+
+.hot {
+    display: flex;
+    justify-content: center;
+}
