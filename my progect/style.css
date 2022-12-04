@@ -11,18 +11,29 @@
 
 }
 
+.teapage {
+    height: 600px;
+    width: 80%;
+    margin: 10px 150px;
+}
+
 .empty {
     background-color: white;
-    height: 70px;
+    height: 20px;
 }
 
 .history {
-    height: 800px;
+    height: 1000px;
 }
 
 .footer {
-    height: 200px;
+    height: 220px;
     background-color: darkseagreen;
+    text-align: center;
+}
+
+.ordering {
+    list-style: none;
 }
 
 .name {
@@ -36,20 +47,6 @@
     height: 850px;
 }
 
-@font-face {
-	font-family: 'SFNS-Display-Thin';
-	src: url('../fonts/sfns_display_thin.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/sfns_display_thin.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/sfns_display_thin.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/sfns_display_thin.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/sfns_display_thin.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/sfns_display_thin.svg#sfns_display_thin') format('svg'); /* Chrome < 4, Legacy iOS */
-}
-
-* {
-    font-family: 'SFNS-Display-Thin';
-}
-
 .p {
     display: flex;
     justify-content: center;
@@ -58,4 +55,32 @@
 .hot {
     display: flex;
     justify-content: center;
+}
+
+.google {
+    width: 200px;
+    height: 60px;
+}
+
+.app {
+    width: 200px;
+    height: 60px;
+}
+
+.bg-light {
+    position: sticky;
+    top: 0;
+}
+
+@font-face {
+	font-family: 'PosteRetro';
+	src: url('../fonts/posteretro.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/posteretro.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/posteretro.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/posteretro.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/posteretro.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/posteretro.svg#posteretro') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+* {
+    font-family: 'PosteRetro';
 }

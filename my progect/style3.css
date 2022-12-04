@@ -22,21 +22,13 @@
     height: 70px;
 }
 
-.product-one {
-    display: flex;
-    align-items: center;
-    margin: 50px;
+.connection {
+    height: 600px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
 }
 
-.card {
-    margin: 40px;
-}
-
-.product-two {
-    display: flex;
-    align-items: center;
-    margin: 50px;
-}
 
 .btn-primary {
     background-color: darkseagreen;
