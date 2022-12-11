@@ -43,7 +43,7 @@
     height: 60px;
 }
 
-.price {
+.form {
     height: 800px;
 }
 
@@ -59,4 +59,22 @@
 
 .name {
     font-family: 'PosteRetro';
+}
+
+.pic {
+    margin: 10px;
+    height: 100px;
+    width: 150px;
+    border-radius: 10px
+}
+
+.first {
+    height: 120px;
+    width: 100%;
+    outline: 2px solid darkslategray;
+}
+
+.picture {
+    height: 120px;
+    width: 160px;
 }
