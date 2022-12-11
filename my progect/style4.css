@@ -44,7 +44,8 @@
 }
 
 .form {
-    height: 800px;
+    height: 1650px;
+    text-align: -webkit-center;
 }
 
 @font-face {
@@ -61,20 +62,23 @@
     font-family: 'PosteRetro';
 }
 
-.pic {
-    margin: 10px;
-    height: 100px;
+.btn-primary {
+    background-color: darkseagreen;
+    border: darkseagreen;
+}
+
+.btn-primary:hover {
+    background-color: rgb(92, 130, 92);
+}
+
+.one {
     width: 150px;
-    border-radius: 10px
+    height: 100px;
+    margin: 0px 50px;
+    float: left;
+    border-radius: 10px;
 }
 
-.first {
-    height: 120px;
-    width: 100%;
-    outline: 2px solid darkslategray;
-}
-
-.picture {
-    height: 120px;
-    width: 160px;
+.w-75 {
+    margin: 10px;
 }
