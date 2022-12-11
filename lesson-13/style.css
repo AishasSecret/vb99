@@ -1,0 +1,32 @@
+.animate {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    position: relative;
+    animation-play-state: paused;
+}
+
+@keyframes move {
+    from {
+        left: 0;
+        width: 300px;
+    }
+    25% {
+        background-color: khaki;
+    }
+    50% {
+        width: 700px;
+    }
+    75% {
+        background-color:orchid;
+    }
+    to {
+        width: 300px;
+        left: 500px;
+        background-color: rebeccapurple;
+    }
+}   
+
+.animate:hover {
+    animation: move 5s linear alternate infinite;
+}
