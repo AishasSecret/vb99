@@ -23,7 +23,7 @@
 }
 
 .history {
-    height: 1070px;
+    height: 1100px;
 }
 
 .footer {
@@ -92,6 +92,7 @@
     float: left;
     height: 200px;
     width: 350px;
+    margin: 0px 20px;
 }
 
 .fool {
@@ -105,4 +106,9 @@
     float: right;
     height: 200px;
     width: 350px;
+    margin: 0px 20px;
+}
+
+.one {
+    padding: 20px;
 }

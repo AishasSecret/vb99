@@ -32,9 +32,6 @@
     margin: 40px;
     width: 15%;
 }
-.card:hover {
-    width: 20%;
-}
 
 .product-two {
     display: flex;
