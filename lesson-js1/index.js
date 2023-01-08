@@ -56,3 +56,13 @@ console.log(e + 'hello');
 
 const f = prompt()
 console.log(f+1);
+
+const str = '10a756805'
+console.log(typeof str);
+const str1 = Number(str)
+console.log(str1);
+console.log(parseInt(str));
+
+const bool = 249
+console.log(typeof Boolean(bool));
+console.log(typeof !!bool);
