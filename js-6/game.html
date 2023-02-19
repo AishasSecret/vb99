@@ -16,15 +16,32 @@
 
    <div class="gameCount">
       <p>How many times do you want to play?</p>
-      <input id="count" type="text" placeholder="Number of times">
-      <button id="toGame" disabled>Ready</button>
+      <input id="count" value="1" type="number" placeholder="Number of times">
+      <button id="toGame">Ready</button>
    </div>
 
    <div class="game">
       <div class="pics">
-         <img id="rock" src="ApSOe5DdEJ_500_500.jpg" alt="">
+         <img id="stone" src="ApSOe5DdEJ_500_500.jpg" alt="">
          <img id="paper" src="Kakaya-bumaga-samaya-populyarnaya-obzor-naiboleye-vostrebovannykh-vidov-bumagi-chast-4-ris-1.jpg" alt="">
          <img id="scissors" src="nozhnitsy_attache_180mm_plast_elliptich_ruchki_1_full.jpg" alt="">
+      </div>
+      <div>
+         <div>
+            <span>Игр сыграно:</span><span id="gameAll"> 0</span>
+         </div>
+         <div>
+            <span>Ваших побед:</span><span id="userWin"> 0</span>
+         </div>
+         <div>
+            <span>Побед ИИ:</span><span id="pcWin"> 0</span>
+         </div>
+      </div>
+      <div class="middleResult">
+         <span id="middleResult"></span>
+      </div>
+      <div class="result">
+         <span id="result"></span>
       </div>
    </div>
 
