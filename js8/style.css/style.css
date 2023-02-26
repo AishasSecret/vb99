@@ -1,0 +1,7 @@
+.data {
+  width: 100%;
+  height: 100px;
+  background-color: firebrick; }
+  .data-input {
+    background-color: darksalmon;
+    border: darksalmon; }
