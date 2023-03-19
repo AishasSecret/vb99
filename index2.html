@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>LSD</title>
+</head>
+<body>
+   <form>
+      Name: <input type="text" id="firstName"> <br> <br>
+      SecondName: <input type="text" id="secondName"> <br> <br>
+      Mail: <input type="text" id="mail"> <br> <br>
+      <input type="button" value="Collect information" id="btn">
+      <input type="button" value="Refresh information" id="btn2"> <br> <br>
+      <p id="user"></p> <br> <br>
+      <input type="button" value="Recollect Local Storage" id="btn3">
+   </form>
+
+   <script>
+      window.onload = load;
+      let storage = window.localStorage;
+      function load() {
+         let firstName = document.getElementById('firstName');
+         let secondName = document.getElementById('secondName');
+         let mail = document.getElementById('mail');
+         let btn = document.getElementById('btn');
+         let btn2 = document.getElementById('btn2');
+         let btn3 =  document.getElementById('btn3')
+         let p = document.getElementById('p');
+
+         btn.addEventListener('click', submit);
+         btn2.addEventListener('click', printOutInfo);
+         btn3.addEventListener('click', alertStorage);
+      }
+
+      function submit() {
+         let n1 = firstName.value;
+         let n2 = secondName.value
+         let m = mail.value;
+         // console.log(n1 + n2 + mail);
+         storage.setItem('name1', n1);
+         storage.setItem('name2', n2);
+         storage.setItem('mail', m);
+      }
+
+      function printOutInfo() {
+         user.innerHTML = 'Information about user: ' + storage.name1 + ' ' + storage.name2 + '. Mail: ' + storage.mail;
+      }
+
+      function alertStorage() {
+         for (let i = 0; i < storage.length; i++) {
+            let k = storage.key(i);
+            alert(k + ': ' + storage.getItem(k));
+         }
+      }
+   </script>
+</body>
+</html>
