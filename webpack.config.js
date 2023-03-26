@@ -15,18 +15,6 @@ module.exports = {
         new HTMLWebpackPlugin({
           filename: 'page1.html',
           template: './src/components/page1/page1.html',
-        }),
-        new HTMLWebpackPlugin({
-          filename: 'page2.html',
-          template: './src/components/page2/page2.html',
-        }),
-        new HTMLWebpackPlugin({
-          filename: 'page3.html',
-          template: './src/components/page3/page3.html',
-        }),
-        new HTMLWebpackPlugin({
-          filename: 'page4.html',
-          template: './src/components/page4/page4.html',
         })
     ],
     module: {
@@ -41,11 +29,11 @@ module.exports = {
           },
           {
             test: /\.(png|jpg|jpeg|gif|svg)$/,
-            use: [ 'file-loader' ]
+            type: 'asset'
           }
         ]
       },
     devServer: {
-        port: 5000
+        port:3000
     }
 }
