@@ -1,0 +1,70 @@
+header {
+    width: 100%;
+    height: 110px;
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#p {
+    color: purple;
+}
+
+#name {
+    color: white;
+}
+
+#avatar {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+
+footer {
+    width: 100%;
+    height: 168px;
+    background-color: purple;
+    text-align: center;
+}
+
+.f-img {
+    width: 35px;
+    height: 35px;
+}
+
+.foot-img {
+    width: 30px;
+    height: 35px;
+}
+
+#fImg {
+    width: 45px;
+    height: 40px;
+}
+
+#fimg {
+    width: 70px;
+    height: 35px;
+}
+
+#flmg {
+    width: 110px;
+    height: 35px;
+}
+
+form {
+    display: grid;
+    justify-content: space-around;
+}
+
+.avtorisation {
+    height: 340px;
+    margin: 70px;
+}
