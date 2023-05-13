@@ -42,7 +42,7 @@ footer {
 .pic {
     width: 200px;
     height: 200px;
-    background-image: url('https://lidskae.by/assets/components/phpthumbof/cache/DYNAMIT_Guava_01.41440a564be55496b970cc8fd5ffde77.png');
+    /* background-image: url('https://lidskae.by/assets/components/phpthumbof/cache/DYNAMIT_Guava_01.41440a564be55496b970cc8fd5ffde77.png'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
