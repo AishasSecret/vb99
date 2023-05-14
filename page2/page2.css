@@ -1,7 +1,7 @@
 header {
     width: 100%;
     height: 110px;
-    background-color: purple;
+    background-image: url(https://obrazovaka.ru/wp-content/images/preview/biblioteka/sergey-esenin-kapli-11434.jpg);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +30,7 @@ nav {
 footer {
     width: 100%;
     height: 168px;
-    background-color: purple;
+    background-color: rgb(87, 97, 126);
     text-align: center;
 }
 
@@ -57,4 +57,33 @@ footer {
 #flmg {
     width: 110px;
     height: 35px;
+}
+
+.pic {
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-card {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-prim {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    margin: 10px 10px;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#btn-prim:hover {
+    background-color: rgb(50, 50, 53);
+    border: 1px solid black;
+    color: white;
 }

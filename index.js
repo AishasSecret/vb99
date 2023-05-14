@@ -1,6 +1,10 @@
+function ls() {
+    localStorage.setItem('card', JSON.stringify([]))
+}
+ls()
+
 const db_url = 'https://energetcsdata-default-rtdb.asia-southeast1.firebasedatabase.app'
 const cards = document.querySelector('.cards')
-
 
 function getSmthing() {
     fetch(`${db_url}/energy.json`, {
@@ -34,10 +38,17 @@ function getSmthing() {
             card_text.innerText = energy[i].dis
 
             const btn_prim = document.createElement('a')
-            btn_prim.innerText = 'to card'
+            btn_prim.innerText = 'to cart'
             btn_prim.setAttribute('id', 'btn-prim')
             btn_prim.classList.add('btn-primary')
             btn_prim.classList.add('btn')
+
+            btn_prim.onclick = () => {
+                const ls = JSON.parse(localStorage.getItem('card'))
+                ls.push(energy[i])
+                localStorage.clear()
+                localStorage.setItem('card', JSON.stringify(ls))
+            }
 
             pic.style.backgroundImage = `url('${energy[i].link}')`
             pic.style.backgroundPosition = 'center'
@@ -61,5 +72,3 @@ function getSmthing() {
     })
 }
 getSmthing()
-
-
