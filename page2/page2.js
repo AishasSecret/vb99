@@ -15,15 +15,21 @@ function cardF () {
         const card_body = document.createElement('div')
         card_body.classList.add('card-body')
 
-        const card_title = document.createElement('h5')
+        const card_title = document.createElement('div')
         card_title.classList.add('card-title')
+        card_title.classList.add('margin')
+
         card_title.innerText = lsArr[i].name
 
-        const card_text = document.createElement('p')
+        const card_text = document.createElement('div')
         card_text.classList.add('card-text')
         card_text.innerText = lsArr[i].dis
 
-      
+        const price = document.createElement('div')
+        price.classList.add('margin')
+        const h6 = document.createElement('h6')
+        h6.innerText = lsArr[i].price + ' BYN'
+        price.append(h6) 
 
 
 
@@ -32,7 +38,7 @@ function cardF () {
         pic.style.backgroundRepeat = 'no-repeat'
         pic.style.backgroundSize = 'cover'
 
-        card_body.append(card_title, card_text)
+        card_body.append(card_title, card_text, price)
 
 
         card.append(pic, card_body)

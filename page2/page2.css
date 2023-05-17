@@ -78,12 +78,26 @@ footer {
     color: black;
     margin: 10px 10px;
     width: 180px;
-    height: 50px;
+    height: 30px;
     border-radius: 5px;
+    text-align: center;
 }
 
 #btn-prim:hover {
     background-color: rgb(50, 50, 53);
     border: 1px solid black;
     color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body {
+    display: flex;
+}
+
+.margin {
+    margin: 0 20px;
 }

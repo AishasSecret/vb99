@@ -35,7 +35,7 @@ function getSmthing() {
 
             const card_text = document.createElement('p')
             card_text.classList.add('card-text')
-            card_text.innerText = energy[i].dis
+            card_text.innerText = energy[i].dis + ' 4.99 BYN'
 
             const btn_prim = document.createElement('a')
             btn_prim.innerText = 'to cart'

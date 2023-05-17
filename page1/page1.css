@@ -70,16 +70,67 @@ form {
 }
 
 .empty {
-    height: 40px;
+    height: 60px;
+}
+
+.modal-w {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.195);
+    z-index: 100;
+    display: none;
+}
+
+.mess {
+    width: 45%;
+    height: 20%;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 20% auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn-mod {
+    display: flex;
+    justify-content: center;
+}
+
+.text-mod {
+    text-align: center;
+    padding: 20px;
 }
 
 #btn-prim {
+
     background-color: white;
     border: 1px solid black;
     color: black;
 }
 
 #btn-prim:hover {
+    background-color: rgb(50, 50, 53);
+    border: 1px solid black;
+    color: white;
+}
+
+#btn-modal {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    margin: 10px 10px;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#btn-modal:hover {
     background-color: rgb(50, 50, 53);
     border: 1px solid black;
     color: white;
