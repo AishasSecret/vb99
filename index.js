@@ -38,7 +38,7 @@ function getSmthing() {
             card_text.innerText = energy[i].dis + ' 4.99 BYN'
 
             const btn_prim = document.createElement('a')
-            btn_prim.innerText = 'to cart'
+            btn_prim.innerText = 'В корзину'
             btn_prim.setAttribute('id', 'btn-prim')
             btn_prim.classList.add('btn-primary')
             btn_prim.classList.add('btn')
