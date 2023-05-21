@@ -38,10 +38,10 @@ function cardF () {
         pic.style.backgroundRepeat = 'no-repeat'
         pic.style.backgroundSize = 'cover'
 
-        card_body.append(card_title, card_text, price)
+        card_body.append(pic, card_title, card_text, price)
 
 
-        card.append(pic, card_body)
+        card.append(card_body)
         cardDiv.append(card)
 
 
